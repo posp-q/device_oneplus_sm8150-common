@@ -84,7 +84,7 @@ vendor/lib/libdapparamstorage.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
-vendor/lib/libtinycompress_vendor.so
+#vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdirac_gef.so
 vendor/lib/soundfx/libhaptic_effect.so
@@ -106,7 +106,7 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdlbdsservice.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress_vendor.so
+#vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libhaptic_effect.so
 vendor/lib64/soundfx/libqcreverb.so
@@ -1010,10 +1010,10 @@ etc/permissions/com.nxp.nfc.xml
 framework/com.nxp.nfc.jar
 lib64/libnxpnfc-nci.so
 lib64/libnxpnfc_nci_jni.so
-vendor/bin/hw/android.hardware.nfc@1.1-service
-vendor/bin/hw/android.hardware.secure_element@1.0-service
-vendor/etc/init/android.hardware.nfc@1.1-service.rc
-vendor/etc/init/android.hardware.secure_element@1.0-service.rc
+#vendor/bin/hw/android.hardware.nfc@1.1-service
+#vendor/bin/hw/android.hardware.secure_element@1.0-service
+#vendor/etc/init/android.hardware.nfc@1.1-service.rc
+#vendor/etc/init/android.hardware.secure_element@1.0-service.rc
 vendor/etc/libese-nxp.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nci_beijingbus.conf
@@ -1047,14 +1047,14 @@ vendor/etc/libnfc-nxp_wuhantong.conf
 vendor/etc/libnfc-nxp_yangchengtong.conf
 vendor/etc/libnfc-nxp_zhengzhoubus.conf
 vendor/etc/permissions/com.nxp.mifare.xml
-vendor/lib/libp61-jcop-kit.so
+#vendor/lib/libp61-jcop-kit.so
 vendor/lib/libpn553_fw.so
-vendor/lib64/ese_spi_nxp.so
-vendor/lib64/libp61-jcop-kit.so
-vendor/lib64/ls_client.so
-vendor/lib64/nfc_nci_nxp.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpnfc@1.0.so
+#vendor/lib64/ese_spi_nxp.so
+#vendor/lib64/libp61-jcop-kit.so
+#vendor/lib64/ls_client.so
+#vendor/lib64/nfc_nci_nxp.so
+#vendor/lib64/vendor.nxp.nxpese@1.0.so
+#vendor/lib64/vendor.nxp.nxpnfc@1.0.so
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
