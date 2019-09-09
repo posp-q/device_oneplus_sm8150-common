@@ -406,16 +406,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.msmnile
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch\
-
-
-# tri-state key
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key_daemon
-
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
