@@ -210,7 +210,8 @@ PRODUCT_PACKAGES += \
     kmemleak.sh \
     ueventd.rc \
     vendor.oem_ftm.rc \
-    vendor.oem_ftm_svc_disable.rc
+    vendor.oem_ftm_svc_disable.rc \
+    ueventd.qcom.rc
 
 # Display
 PRODUCT_PACKAGES += \
