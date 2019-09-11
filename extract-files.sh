@@ -15,6 +15,18 @@
 # limitations under the License.
 #
 
+# Sourced by the common device repo when extracting device-specific blobs
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib/libgps.utils.so)
+        patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
+        ;;
+    vendor/lib64/libgps.utils.so)
+        patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
+        ;;
+    esac
+}
+
 set -e
 
 DEVICE_COMMON=sm8150-common
