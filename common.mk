@@ -106,7 +106,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    tinymix
+    tinymix \
+    libtinycompress_vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -223,7 +224,8 @@ PRODUCT_PACKAGES += \
     libvulkan \
     memtrack.msmnile \
     vendor.display.config@1.7 \
-    vendor.qti.hardware.display.allocator@1.0-service
+    vendor.qti.hardware.display.allocator@1.0-service \
+    vendor.oneplus.hardware.display@1.0
 
 # DRM
 PRODUCT_PACKAGES += \
