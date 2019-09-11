@@ -522,6 +522,9 @@ vendor/lib64/libsdm-colormgr-algo.so
 -vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
+lib/vendor.oneplus.hardware.display@1.0.so
+lib64/vendor.oneplus.hardware.display@1.0.so
+vendor/lib64/vendor.oneplus.hardware.display@1.0.so
 
 # Display calibration data
 vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
