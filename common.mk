@@ -354,10 +354,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson
-
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
