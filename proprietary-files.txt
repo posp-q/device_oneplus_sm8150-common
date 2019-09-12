@@ -383,6 +383,8 @@ vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
+vendor/lib64/lib_bokehlib.so
+vendor/lib/lib_bokehlib.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
