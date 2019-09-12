@@ -24,6 +24,11 @@ function blob_fixup() {
     vendor/lib64/libgps.utils.so)
         patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
         ;;
+    vendor/lib/hw/audio.primary.msmnile.so)
+        patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
+        ;;
+    vendor/lib64/hw/audio.primary.msmnile.so)
+        patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
     esac
 }
 
