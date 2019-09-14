@@ -115,6 +115,10 @@ vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/libtinycompress.so
+vendor/lib/libtinycompress.so
+vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio amplifier firmware
 vendor/firmware/tfa98xx.cnt
