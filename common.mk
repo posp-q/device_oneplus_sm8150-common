@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl:64 \
     android.hardware.boot@1.0-service \
-    bootctrl.msmnile \
+    bootctrl.msmnile
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -152,7 +152,8 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbthost_if \
-    android.hardware.bluetooth.a2dp@1.0-impl
+    android.hardware.bluetooth.a2dp@1.0-impl \
+    android.hardware.bluetooth.audio@2.0-impl
 
 # Camera
 PRODUCT_PACKAGES += \
