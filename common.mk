@@ -165,7 +165,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libxml2 \
-    Snap \
+    Camera2 \
     vendor.oneplus.camera.CameraHIDL@1.0.vendor \
     vendor.oneplus.camera.CameraHIDL@1.0 \
     libgui_vendor
