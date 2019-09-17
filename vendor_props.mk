@@ -92,10 +92,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qfp=true \
     persist.vendor.qfp.enable_fd=1
 
-# FRP
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.frp.pst=/dev/block/bootdevice/by-name/config
-
 # Gatekeeper
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gatekeeper.disable_spu=true
