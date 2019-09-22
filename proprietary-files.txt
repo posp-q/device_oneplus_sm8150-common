@@ -87,7 +87,7 @@ vendor/lib/libsurround_3mic_proc.so
 #vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdirac_gef.so
-vendor/lib/soundfx/libhaptic_effect.so
+vendor/lib/soundfx/libhaptic_effect.so|3ed2309b976d37ab7c9dc49043c0a0223ccceb16
 vendor/lib/soundfx/libqcbassboost.so|572d03f4566f3e08aeac948b9ef92817af243a39
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
@@ -108,7 +108,7 @@ vendor/lib64/libdlbdsservice.so
 vendor/lib64/libqtigef.so
 #vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libhaptic_effect.so
+vendor/lib64/soundfx/libhaptic_effect.so|7a4b99a07a34fb8b9f7e5189534f196785627049
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
