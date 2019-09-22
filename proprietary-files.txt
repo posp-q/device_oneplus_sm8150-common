@@ -84,7 +84,6 @@ vendor/lib/libdapparamstorage.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
-#vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdirac_gef.so
 vendor/lib/soundfx/libhaptic_effect.so|3ed2309b976d37ab7c9dc49043c0a0223ccceb16
@@ -106,7 +105,6 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdlbdsservice.so
 vendor/lib64/libqtigef.so
-#vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libhaptic_effect.so|7a4b99a07a34fb8b9f7e5189534f196785627049
 vendor/lib64/soundfx/libqcreverb.so
@@ -115,6 +113,9 @@ vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/libtinycompress.so
+vendor/lib64/libtinycompress_vendor.so
+vendor/lib/libtinycompress_vendor.so
 
 # Audio amplifier firmware
 vendor/firmware/tfa98xx.cnt
@@ -1223,6 +1224,8 @@ vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
+vendor/lib64/libjson.so
+vendor/lib/libjson.so
 
 # Radio - IMS
 -app/uceShimService/uceShimService.apk
