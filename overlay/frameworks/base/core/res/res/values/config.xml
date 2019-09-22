@@ -31,6 +31,18 @@
         <item>"rndis\\d"</item>
     </string-array>
 
+    <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/priv-app/KeyHandler/KeyHandler.apk</item>
+        <item>/system/priv-app/OnePlusCameraHelper/OnePlusCameraHelper.apk</item>
+    </string-array>
+
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>org.lineageos.settings.device.KeyHandler</item>
+        <item>org.lineageos.camerahelper.KeyHandler</item>
+    </string-array>
+
    <!-- List of regexpressions describing the interface (if any) that represent tetherable
           Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
           should be empty.  An example would be "softap.*" -->
